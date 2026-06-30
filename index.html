@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NEXUS — Refined</title>
+  <meta name="description" content="NEXUS — a refined demo landing page with accessibility and responsive improvements">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="nav" role="navigation" aria-label="Main">
+    <div class="nav-inner">
+      <a class="logo" href="#" aria-label="NEXUS home">
+        <span class="dot" aria-hidden="true"></span>
+        <span>NEXUS</span>
+      </a>
+
+      <button id="nav-toggle" aria-expanded="false" aria-controls="nav-list" class="nav-toggle" aria-label="Open menu">
+        ☰
+      </button>
+
+      <ul id="nav-list" class="nav-list" role="menubar">
+        <li role="none"><a role="menuitem" href="#platform">Platform</a></li>
+        <li role="none"><a role="menuitem" href="#products">Products</a></li>
+        <li role="none"><a role="menuitem" href="#developers">Developers</a></li>
+        <li role="none"><a role="menuitem" href="#pricing">Pricing</a></li>
+        <li role="none"><a role="menuitem" href="#enterprise">Enterprise</a></li>
+      </ul>
+
+      <div class="actions">
+        <button class="btn secondary" id="signin">Sign In</button>
+        <button class="btn primary" id="launch">Launch OS</button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <header class="hero" role="banner">
+      <p class="announcement">✨ Introducing Nexus OS v4</p>
+      <h1>Not another website.<br><span>A Digital Universe.</span></h1>
+      <p class="lead">Experience a new generation of software where AI, cloud computing, design and productivity become one.</p>
+
+      <div class="hero-actions">
+        <button class="btn btn-cta">Enter Nexus</button>
+        <button class="btn btn-ghost">Watch Experience</button>
+      </div>
+
+      <section class="floating-ui" aria-hidden="true">
+        <article class="window">
+          <div class="window-top">AI ENGINE</div>
+          <h2>Thinking...</h2>
+          <p>Generating infrastructure...</p>
+        </article>
+
+        <article class="window">
+          <div class="window-top">Analytics</div>
+          <h2>+247%</h2>
+          <p>Monthly Growth</p>
+        </article>
+
+        <article class="window">
+          <div class="window-top">Deployment</div>
+          <h2>Success</h2>
+          <p>Worldwide</p>
+        </article>
+      </section>
+    </header>
+
+    <section class="brands" aria-label="Trusted by">
+      <p>Trusted by teams building tomorrow</p>
+      <div class="brand-row" aria-hidden="true">
+        <span>OPENAI</span>
+        <span>VERCEL</span>
+        <span>LINEAR</span>
+        <span>RAILWAY</span>
+        <span>FRAMER</span>
+        <span>APPLE</span>
+      </div>
+    </section>
+
+    <!-- Simplified additional sections for demo -->
+
+    <section class="pricing" id="pricing">
+      <h2>Choose Your Universe</h2>
+      <div class="pricing-grid">
+        <div class="card">
+          <h3>Starter — Free</h3>
+          <ul>
+            <li>AI Assistant</li>
+            <li>3 Projects</li>
+            <li>10GB Storage</li>
+          </ul>
+          <button class="btn">Get Started</button>
+        </div>
+
+        <div class="card featured">
+          <h3>Pro — $19/mo</h3>
+          <ul>
+            <li>Unlimited Projects</li>
+            <li>Advanced AI</li>
+            <li>Global Deployments</li>
+          </ul>
+          <button class="btn btn-cta">Start Pro</button>
+        </div>
+
+        <div class="card">
+          <h3>Enterprise — Custom</h3>
+          <ul>
+            <li>Dedicated Servers</li>
+            <li>24/7 Support</li>
+            <li>Unlimited Everything</li>
+          </ul>
+          <button class="btn">Contact Sales</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>
+        <h3>NEXUS</h3>
+        <p>Crafting the future of software.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#">Platform</a>
+        <a href="#">Developers</a>
+        <a href="#">Docs</a>
+        <a href="#">Blog</a>
+      </nav>
+    </footer>
+  </main>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <script src="/js/script.js" defer></script>
+</body>
+</html>
